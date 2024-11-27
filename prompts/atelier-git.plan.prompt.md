@@ -46,6 +46,7 @@ Vous êtes sollicité en tant qu'expert en pédagogie active et en développemen
 
 ### **Tâches à Réaliser**
 
+Donner seulement la Plan de formation et Exercice d’introduction
 1. **Plan de formation** :  
    - Identifier les **objectifs pédagogiques** pour chaque session et séance.  
    - Définir les **durées** pour chaque chapitre.  

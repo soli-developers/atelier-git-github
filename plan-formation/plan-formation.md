@@ -1,121 +1,105 @@
-### **Formation Git et GitHub pour Apprenants de 1ère Année**
+# **Plan de Formation : Git et GitHub**
+
+
+## **Session 1 : Introduction et Bases de Git**  
+**Objectifs pédagogiques** :
+- Comprendre les principes de base de Git.  
+- Manipuler Git en ligne de commande pour le suivi des versions.  
+- Configurer un projet local et interagir avec un dépôt distant.  
+
+**Séance 1 (2h30)** :  
+**Thèmes abordés** :  
+1. Introduction à Git et à la gestion de version (30 min) :
+   - Problématique résolue par Git.
+   - Différence entre Git et GitHub.
+   - Installation et configuration initiale (éditeur, identité, etc.).
+
+2. Premiers pas avec Git (1h) :  
+   - Initialisation d’un répertoire avec `git init`.
+   - Ajout et suivi des fichiers : commandes `git add`, `git status`, et `git commit`.
+   - Historique des versions avec `git log`.
+
+3. Exercice pratique (1h) :  
+   - Création d'un répertoire local.
+   - Ajout et modification de fichiers, suivi et validation des modifications.
+
+**Séance 2 (2h30)** :  
+**Thèmes abordés** :
+1. Collaboration avec GitHub (1h) :
+   - Création d’un dépôt GitHub.
+   - Liaison d’un projet local à GitHub : `git remote` et `git push`.
+   - Gestion des clés SSH (introduction rapide).
+
+2. Gestion des modifications et résolution de problèmes (30 min) :
+   - Récupération des modifications avec `git pull`.
+   - Résolution des conflits (concepts et exemples simples).
+
+3. QCM (1h) :
+   - Validation des acquis de la session 1.
+   - Accès à la session 2 uniquement après validation (score minimal requis : 70%).
 
 ---
 
-#### **Objectifs Pédagogiques**
-1. Comprendre les concepts fondamentaux de Git et GitHub.
-2. Maîtriser les commandes Git essentielles pour la gestion de version.
-3. Collaborer efficacement en équipe sur GitHub.
-4. Appliquer les bonnes pratiques de développement collaboratif.
+## **Session 2 : Collaboration avancée et bonnes pratiques**  
+**Objectifs pédagogiques** :  
+- Maîtriser les branches pour travailler en équipe.  
+- Appliquer les bonnes pratiques Git et GitHub.  
+
+**Séance 3 (2h30)** :  
+**Thèmes abordés** :  
+1. Gestion des branches (1h) :  
+   - Concepts de branche et d’intégration continue.
+   - Création, changement et fusion de branches : `git branch`, `git checkout`, `git merge`.
+
+2. Collaboration avec les Pull Requests (30 min) :
+   - Introduction aux Pull Requests sur GitHub.
+   - Révision de code et validation collaborative.
+
+3. Exercice pratique (1h) :  
+   - Travail à plusieurs sur un projet exemple.
+   - Création de branches, gestion des modifications et fusion des changements.
+
+**Séance 4 (2h30)** :
+**Thèmes abordés** :
+1. Bonnes pratiques Git (1h) :  
+   - Convention de messages de commit.
+   - Organisation des dépôts (README, fichiers `.gitignore`, etc.).
+
+2. Exercice de synthèse (1h30) :
+   - Gestion d’un projet complet incluant branches, conflits, et Pull Requests.
 
 ---
 
-### **Plan de Formation**
+## **Exercice d’Introduction : Ligne de Commande**
 
-#### **Session 1 : Introduction et Bases de Git**
-**Durée totale** : 2 séances de 2h30 chacune
+**Objectif** : Apprendre à naviguer et gérer des fichiers dans un terminal, base essentielle pour comprendre les commandes Git.
 
-##### **Séance 1 : Introduction à Git et Gestion Locale des Versions**
-- **Objectifs** :
-  - Comprendre ce qu’est Git et son utilité.
-  - Maîtriser les commandes de base pour la gestion locale des versions.
-- **Programme** :
-  1. Introduction à Git (20 min)  
-     - Historique et principes fondamentaux.
-     - Différence entre Git et GitHub.
-  2. Installation et Configuration (20 min)  
-     - Installer Git sur Windows/Linux/Mac.
-     - Configurer les informations utilisateur (nom, email).
-  3. Exercice d’introduction à la ligne de commande (1h)  
-     - Navigation dans les répertoires : `cd`, `ls`, `mkdir`, `touch`.
-     - Gestion des fichiers : `mv`, `rm`, `cp`.
-  4. Gestion locale des versions avec Git (50 min)  
-     - Création d’un répertoire Git : `git init`.
-     - Suivi des modifications : `git status`, `git add`, `git commit`.
-     - Historique des versions : `git log`.
+**Durée** : 1 heure.
 
-##### **Séance 2 : Collaboration sur GitHub**
-- **Objectifs** :
-  - Apprendre à utiliser GitHub pour collaborer en équipe.
-  - Maîtriser les bases de l’interaction entre Git et GitHub.
-- **Programme** :
-  1. Introduction à GitHub (20 min)  
-     - Présentation de l’interface GitHub.
-     - Création d’un compte GitHub.
-  2. Liaison entre Git et GitHub (40 min)  
-     - Ajouter un dépôt distant : `git remote add`.
-     - Publier des modifications : `git push`.
-  3. Premiers pas avec les Pull Requests (1h30)  
-     - Récupération des modifications : `git pull`.
-     - Exercice : Collaborer sur un projet simple.
-  4. **QCM de validation** (30 min)  
-     - Questions sur les notions vues en session 1.
-     - Validation pour accéder à la session 2.
+### **Scénario** :
+Un nouveau projet est en cours de création, mais l’organisation des fichiers doit être faite via la ligne de commande.
 
----
+**Activités** :
+1. **Navigation dans le terminal** (15 min) :
+   - Commandes de base : `pwd`, `ls`, `cd`.
+   - Création de dossiers : `mkdir projet_git`.
 
-#### **Session 2 : Approfondissement et Bonnes Pratiques**
-**Durée totale** : 2 séances de 2h30 chacune
+2. **Gestion des fichiers** (20 min) :
+   - Création de fichiers : `touch README.md`.
+   - Modification d’un fichier avec un éditeur (par ex. `nano`, `vim`, ou autre).
+   - Copie, déplacement, suppression : `cp`, `mv`, `rm`.
 
-##### **Séance 3 : Branches et Gestion Avancée des Versions**
-- **Objectifs** :
-  - Comprendre et utiliser les branches dans Git.
-  - Apprendre à résoudre les conflits de fusion.
-- **Programme** :
-  1. Utilisation des branches (1h)  
-     - Création : `git branch`, `git checkout` ou `git switch`.
-     - Fusionner des branches : `git merge`.
-  2. Résolution de conflits (1h)  
-     - Identifier les conflits de fusion.
-     - Résoudre un conflit avec un outil de comparaison.
-  3. Exercice pratique (30 min)  
-     - Simuler une situation de conflit et la résoudre.
-
-##### **Séance 4 : Workflow Collaboratif sur GitHub**
-- **Objectifs** :
-  - Mettre en place un workflow collaboratif.
-  - Appliquer les bonnes pratiques de collaboration.
-- **Programme** :
-  1. Forks et Contributions (40 min)  
-     - Créer un fork.
-     - Soumettre une pull request.
-  2. Revue de code et Intégration (50 min)  
-     - Ajouter des reviewers.
-     - Accepter ou refuser une pull request.
-  3. Bonnes pratiques (30 min)  
-     - Messages de commit clairs.
-     - Organisation des branches : `main`, `develop`.
-  4. Projet final collaboratif (30 min)  
-     - Développement en équipe sur un mini-projet GitHub.
-
----
-
-### **Tutoriels Pratiques**
-- **Tutoriel 1 : Créer un répertoire Git et suivre les modifications.**
-- **Tutoriel 2 : Configurer un dépôt GitHub et publier un projet.**
-- **Tutoriel 3 : Gérer les branches et résoudre les conflits.**
-- **Tutoriel 4 : Travailler avec des Pull Requests.**
-
----
-
-### **QCM de Validation (Exemple de Questions)**
-1. Quelle commande permet de créer un nouveau commit ?
-2. Comment ajouter un fichier pour qu’il soit suivi par Git ?
-3. Quelle est la différence entre `git pull` et `git fetch` ?
-4. Expliquez le processus de création d’une pull request.
-
----
-
-### **Affiche de Préparation à la Formation**
-1. **Installation de Git**  
-   - Lien vers le tutoriel d’installation (Windows, Linux, MacOS).
-2. **Création d’un compte GitHub**  
-   - Instructions pour créer un compte sur [GitHub.com](https://github.com).
-3. **Commandes de base à réviser**  
-   - Navigation : `cd`, `ls`, `pwd`.
-   - Fichiers : `mkdir`, `touch`, `rm`.
-
----
-
-**Note** : Chaque session sera animée par un groupe d’apprenants de 2ème année avec supervision par un formateur.
+3. **Exercice guidé** (25 min) :
+   - Scénario : Créer une structure de répertoire pour un projet fictif :
+     - **Arborescence demandée** :
+       ```
+       projet_git/
+       ├── src/
+       │   └── main.js
+       ├── docs/
+       │   └── README.md
+       └── assets/
+           └── logo.png
+       ```
+   - Réaliser les manipulations uniquement via la ligne de commande.
 
