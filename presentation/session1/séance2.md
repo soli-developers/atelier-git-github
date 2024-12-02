@@ -1,4 +1,3 @@
-Voici une proposition pour une série de diapositives structurées et visuellement attrayantes pour la **Séance 2** de la formation "Git et GitHub" :
 
 ---
 

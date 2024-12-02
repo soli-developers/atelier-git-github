@@ -1,4 +1,3 @@
-Voici une proposition pour structurer des diapositives destinées à la séance 1 de la formation Git, en suivant un format visuel et engageant :
 
 ---
 
