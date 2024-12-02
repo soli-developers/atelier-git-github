@@ -145,3 +145,4 @@ Voici une proposition pour structurer des diapositives destinées à la séance 
 ---
 
 Avec ce plan, vous avez une base pour concevoir des diapositives engageantes. Souhaitez-vous des détails supplémentaires ou des suggestions pour un outil de création comme PowerPoint, Canva, ou Google Slides ?
+-/
