@@ -1,6 +1,3 @@
-
----
-
 ### **Diapositive 1 : Titre de la présentation**
 
 **Titre :**
