@@ -126,5 +126,3 @@ Collaborer sur un projet partagé et résoudre des conflits.
 | `git clone`         | Clone un dépôt distant en local.           |  
 
 ---
-
-Cette séance vous prépare à collaborer efficacement sur GitHub et à gérer les défis courants tels que les conflits. Avez-vous besoin d’un exemple détaillé pour une section spécifique ? 😊

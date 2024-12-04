@@ -141,5 +141,3 @@ Imaginez un projet où plusieurs personnes modifient un même fichier en même t
 | `git commit -m`     | Valide les modifications avec un message.  |  
 | `git log`           | Affiche l’historique des commits.          |  
 | `git diff`          | Montre les différences non validées.       |  
-
-Ce chapitre permet de maîtriser les bases et de se familiariser avec les commandes essentielles de Git. Souhaitez-vous approfondir un aspect particulier ? 😊

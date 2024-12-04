@@ -1,4 +1,3 @@
-Voici une proposition pour structurer des diapositives destinées à la séance 1 de la formation Git, en suivant un format visuel et engageant :
 
 ---
 
@@ -144,3 +143,4 @@ Voici une proposition pour structurer des diapositives destinées à la séance 
 ---
 
 Avec ce plan, vous avez une base pour concevoir des diapositives engageantes. Souhaitez-vous des détails supplémentaires ou des suggestions pour un outil de création comme PowerPoint, Canva, ou Google Slides ?
+-/
