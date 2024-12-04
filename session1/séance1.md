@@ -8,8 +8,10 @@
 ---
 
 ### **1. Introduction à Git et à la gestion de version (30 min)**  
+#### Introduction 
 
 #### **1.1. Pourquoi utiliser Git ?**  
+- 
 Imaginez un projet où plusieurs personnes modifient un même fichier en même temps. Comment savoir qui a changé quoi, et à quel moment ? Git permet :  
 - De suivre l'historique des modifications.  
 - De collaborer efficacement avec une équipe.  

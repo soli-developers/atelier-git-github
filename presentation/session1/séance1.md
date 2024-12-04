@@ -12,7 +12,6 @@ Voici une proposition pour structurer des diapositives destinées à la séance 
   - Possibilité de revenir à des versions antérieures.
 - **Illustration** :
   - Icône de fichiers empilés avec une flèche de retour en arrière.
-
 ---
 
 ## **Diapositive 2 : Différence entre Git et GitHub**

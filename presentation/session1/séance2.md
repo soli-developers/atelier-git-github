@@ -181,7 +181,7 @@ Voici une proposition pour une série de diapositives structurées et visuelleme
 
 - `git remote add`, `git push`, `git pull` : synchronisation.
 - Résolution de conflits : marqueurs `<<<<<<<` et `>>>>>>>`.
-- Utilisation de clés SSH pour simplifier les interactions.
+
 
 **Prochaines étapes :**
 
