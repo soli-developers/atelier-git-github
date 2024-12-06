@@ -8,8 +8,10 @@
 ---
 
 ### **1. Introduction à Git et à la gestion de version (30 min)**  
+#### Introduction 
 
 #### **1.1. Pourquoi utiliser Git ?**  
+- 
 Imaginez un projet où plusieurs personnes modifient un même fichier en même temps. Comment savoir qui a changé quoi, et à quel moment ? Git permet :  
 - De suivre l'historique des modifications.  
 - De collaborer efficacement avec une équipe.  
@@ -139,5 +141,3 @@ Imaginez un projet où plusieurs personnes modifient un même fichier en même t
 | `git commit -m`     | Valide les modifications avec un message.  |  
 | `git log`           | Affiche l’historique des commits.          |  
 | `git diff`          | Montre les différences non validées.       |  
-
-Ce chapitre permet de maîtriser les bases et de se familiariser avec les commandes essentielles de Git. Souhaitez-vous approfondir un aspect particulier ? 😊

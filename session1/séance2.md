@@ -36,19 +36,7 @@
    ```  
    Cela synchronise le dépôt local avec GitHub.  
 
-##### **1.3. Gestion des clés SSH (Introduction rapide)**  
-Pour éviter de saisir votre mot de passe à chaque opération :  
-1. **Générez une clé SSH** :  
-   ```bash
-   ssh-keygen -t rsa -b 4096 -C "votre.email@example.com"
-   ```  
 
-2. **Ajoutez la clé SSH à votre compte GitHub** :  
-   - Copiez la clé publique :  
-     ```bash
-     cat ~/.ssh/id_rsa.pub
-     ```  
-   - Collez-la dans **Settings > SSH and GPG keys > New SSH Key** sur GitHub.
 
 ---
 
@@ -138,5 +126,3 @@ Collaborer sur un projet partagé et résoudre des conflits.
 | `git clone`         | Clone un dépôt distant en local.           |  
 
 ---
-
-Cette séance vous prépare à collaborer efficacement sur GitHub et à gérer les défis courants tels que les conflits. Avez-vous besoin d’un exemple détaillé pour une section spécifique ? 😊
